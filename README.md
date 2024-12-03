@@ -26,3 +26,12 @@ git commit -m "not finish yey" //先commit再說
 git checkout master //先回來
 git reset master~ // 刪除最後一個commit 並且reset 會保留commit後的資料 不會被刪除
 ```
+
+
+
+### 如何取消追蹤
+```
+.gitignore中加入 .DS_Store
+
+git rm --cached .DS_Store //停止tracking
+```
