@@ -35,3 +35,13 @@ git reset master~ // 刪除最後一個commit 並且reset 會保留commit後的�
 
 git rm --cached .DS_Store //停止tracking
 ```
+
+### 如何push到 github
+```
+git remote add origin https://github.com/lucahsu0929/git-practice.git
+git add .
+git commit -m "<message>"
+git push -u origin master
+git push -u origin master:cat //推到cat branch
+```
+
