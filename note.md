@@ -12,3 +12,8 @@ git checkout -b cat master~2
 ```
 git reset master~
 ```
+
+### 如何合併多個commit
+```
+git rebase -i <commit> // -i interactive 會把<commit>之後的commit都列出來，要合併就把 pick 改成 squash
+```
