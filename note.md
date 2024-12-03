@@ -17,3 +17,12 @@ git reset master~
 ```
 git rebase -i <commit> // -i interactive 會把<commit>之後的commit都列出來，要合併就把 pick 改成 squash
 ```
+
+### 如何暫停現在的工作
+```
+git add .
+git commit -m "not finish yey" //先commit再說
+
+git checkout master //先回來
+git reset master~ // 刪除最後一個commit 並且reset 會保留commit後的資料 不會被刪除
+```
