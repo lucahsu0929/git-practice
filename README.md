@@ -43,5 +43,8 @@ git add .
 git commit -m "<message>"
 git push -u origin master
 git push -u origin master:cat //推到cat branch
+
+
+git remote remove origin // 刪除origin 如果要換repo
 ```
 
